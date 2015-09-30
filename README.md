@@ -30,6 +30,32 @@ The last parameter it's the Token of your bot that you receive while creating it
 
 After configuration you can run your bot, remind to enable telnet in etc/worldserver.conf (RA.* settings) and open your worldserver.
 
+## Usages
+
+Here the commands that are actually supported:
+
+```
+/saveall 
+/serverinfo - show server info
+/ticket list - show ticket list
+/ticket onlinelist - show ticket onlinelist
+/ticket viewid {ID}
+/ticket complete {ID} {Reason}
+/mute {PlayerName} {minutes} {reason}
+/mutehistory {accountName}
+/unmute {PlayerName}
+/gmannounce {testo}
+/announce {testo}
+/tele {PlayerName} {Area}
+/reload {table}
+/revive {PlayerName}
+/pinfo {PlayerName}
+/kick {PlayerName}
+/unstuck {PlayerName}
+/baninfo ip/account/character {ip/accountName/playerName}
+```
+
+
 
 ## FAQ
 
