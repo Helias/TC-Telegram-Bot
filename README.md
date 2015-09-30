@@ -33,7 +33,7 @@ After configuration you can run your bot, remind to enable telnet in etc/worldse
 
 ## FAQ
 
-My bot **doesn't run** and **return the follow error**::
+My bot **doesn't run** and **return the follow error**:
 
 ```
     LAST_UPDATE_ID = bot.getUpdates()[-1].update_id
