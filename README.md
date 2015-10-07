@@ -21,7 +21,7 @@ HOST = "127.0.0.1"	#IP of the server
 port = 3443		#Port of the server
 username = ""		#Username telnet access 
 password = ""		#Password telnet access
-logs = 1		#Enable/Disable logs (1/0)
+logs = 1			#Enable/Disable logs (1/0)
 
 TOKEN = ""		#Token of your telegram bot that you created from @BotFather
 ```
@@ -30,6 +30,26 @@ The last parameter it's the Token of your bot that you receive while creating it
 
 After configuration you can run your bot, remind to enable telnet in etc/worldserver.conf (RA.* settings) and open your worldserver.
 
+## Security
+
+You can add a condition filter to this line that active the bot only with your chat throught the chat_id:
+
+https://github.com/Helias/TC-Telegram-Bot/blob/master/telegrambot.py#L68
+
+just adding "and chat_id == your_chat_id".
+
+What is chat_id? Anyone on Telegram has a chat_id which any bot use to recognize you and send a message.
+
+How can I find my chat_id? You can obtain your chat id just sending /chatid to @GiveChatId_Bot.
+
+(if you want to obtain the chatid of a group you must invite @GiveChatId_Bot to the group and write /chatid, the chat_id of the gorup usually are negative).
+
+## Examples:
+
+![Example1](https://raw.githubusercontent.com/Helias/TC-Telegram-Bot/master/Example1.png)
+
+![Example2](https://raw.githubusercontent.com/Helias/TC-Telegram-Bot/master/Example2.png)
+ 
 ## Usages
 
 Here the commands that are actually supported:
@@ -66,6 +86,6 @@ My bot **doesn't run** and **return the follow error**:
 IndexError: list index out of range
 ```
 
-Send a message to your Bot and (re)run the file main.py.
+Send a message to your Bot and (re)run the file telegrambot.py.
 
 
