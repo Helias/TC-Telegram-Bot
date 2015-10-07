@@ -44,12 +44,6 @@ How can I find my chat_id? You can obtain your chat id just sending /chatid to @
 
 (if you want to obtain the chatid of a group you must invite @GiveChatId_Bot to the group and write /chatid, the chat_id of the gorup usually are negative).
 
-## Examples:
-
-![Example1](https://raw.githubusercontent.com/Helias/TC-Telegram-Bot/master/Example1.png)
-
-![Example2](https://raw.githubusercontent.com/Helias/TC-Telegram-Bot/master/Example2.png)
- 
 ## Usages
 
 Here the commands that are actually supported:
@@ -75,6 +69,12 @@ Here the commands that are actually supported:
 /baninfo ip/account/character {ip/accountName/playerName}
 ```
 
+## Examples:
+
+![Example1](https://raw.githubusercontent.com/Helias/TC-Telegram-Bot/master/Example1.png)
+
+![Example2](https://raw.githubusercontent.com/Helias/TC-Telegram-Bot/master/Example2.png)
+ 
 
 
 ## FAQ
