@@ -1,6 +1,10 @@
 # TC-Telegram-Bot
 This is a Telegram bot that execute commands in TrinityCore console via telnet.
 
+
+If you don't know how to set up a basic Telegram Bot, read this first:  [https://core.telegram.org/bots](https://core.telegram.org/bots) and talk with @BotFather
+
+
 ## Installing
 
 To run this bot you need the python-telegram-bot library, you can install it by
