@@ -33,7 +33,7 @@ def command(command, output=0):
 
 	tn.close()
 
-	print command #print command log in the console
+	print (command) #print command log in the console
 
 	if logs == 1:
 		fo = open("logs.txt", "a+")
@@ -45,7 +45,7 @@ def command(command, output=0):
 		read = read.replace("Bye\r\n", "")
 		fo.write(read + "\n")
 		fo.close()
-		print read #print log in the console
+		print (read) #print log in the console
 		return read
 
 	if logs == 1:
@@ -54,9 +54,13 @@ def command(command, output=0):
 
 bot = telegram.Bot(TOKEN)
 
-LAST_UPDATE_ID = bot.getUpdates()[-1].update_id
+try:
+	LAST_UPDATE_ID = bot.getUpdates()[-1].update_id
+except IndexError:
+	LAST_UPDATE_ID = 0
 
-last_text = ""
+
+text = ""
 
 while True:
 	messageText = ""
@@ -65,8 +69,7 @@ while True:
 	    chat_id = update.message.chat.id
 	    update_id = update.update_id
 
-	if text != last_text and text != "":
-		last_text = text
+	if text != "":
 		text = text.lower()
 		if text.startswith('/'):
 			if text == '/help':
