@@ -38,7 +38,7 @@ After configuration you can run your bot, remind to enable telnet in etc/worldse
 
 You can add a condition filter to this line that active the bot only with your chat throught the chat_id:
 
-https://github.com/Helias/TC-Telegram-Bot/blob/master/telegrambot.py#L68
+https://github.com/Helias/TC-Telegram-Bot/blob/master/telegrambot.py#L72
 
 just adding "and chat_id == your_chat_id".
 
@@ -82,6 +82,8 @@ Here the commands that are actually supported:
 
 
 ## FAQ
+
+(the follow error should be fixed from this commit https://github.com/Helias/TC-Telegram-Bot/commit/023cc54b262afd644f1ac362c91e9c88f0a9dced )
 
 My bot **doesn't run** and **return the follow error**:
 
