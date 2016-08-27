@@ -97,7 +97,7 @@ Send a message to your Bot and (re)run the file telegrambot.py.
 
 ### Contribute
 
-You can help me [opening a new issue](https://github.com/ShinDarth/PvPstats/issues/new) to report a bug or a suggestion
+You can help me [opening a new issue](https://github.com/Helias/TC-Telegram-Bot/issues/new) to report a bug or a suggestion
 
 or you can donate to support me
 
