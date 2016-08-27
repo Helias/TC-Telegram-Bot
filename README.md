@@ -95,3 +95,10 @@ IndexError: list index out of range
 Send a message to your Bot and (re)run the file telegrambot.py.
 
 
+### Contribute
+
+You can help me [opening a new issue](https://github.com/ShinDarth/PvPstats/issues/new) to report a bug or a suggestion
+
+or you can donate to support me
+
+[![Donate](https://www.paypal.com/en_GB/i/btn/btn_donateCC_LG.gif "Donate")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=52AZFFD86N39Q)
