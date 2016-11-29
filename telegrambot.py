@@ -5,11 +5,11 @@ HOST = "127.0.0.1"	#IP of the server
 port = 3443		#Port of the server
 username = ""		#Username telnet access 
 password = ""		#Password telnet access
-logs = 1		#Enable/Disable logs (1/0)
+logs = True	#Enable/Disable logs (1/0)
 
 TOKEN = ""		#Token of your telegram bot that you created from @BotFather
 
-def command(command, output=0):
+def command(command, output=False):
 	tn = telnetlib.Telnet(HOST, port)
 
 	#tn.set_debuglevel(5) #this is to print the logs of the connection via telnet
@@ -35,11 +35,11 @@ def command(command, output=0):
 
 	print (command) #print command log in the console
 
-	if logs == 1:
+	if logs:
 		fo = open("logs.txt", "a+")
 		fo.write(command + "\n");
 
-	if output == 1:
+	if output:
 		read = read.replace("TC>exit\r\n", "")
 		read = read.replace("TC>", "")
 		read = read.replace("Bye\r\n", "")
@@ -48,7 +48,7 @@ def command(command, output=0):
 		print (read) #print log in the console
 		return read
 
-	if logs == 1:
+	if logs:
 		fo.close()
 
 
