@@ -1,8 +1,8 @@
 # TC-Telegram-Bot
-This is a Telegram bot that execute commands in TrinityCore console via telnet.
+This is a Telegram bot that execute commands in [TrinityCore](https://community.trinitycore.org/topic/14582-trinitycore-and-telegram-integration/?tab=comments#comment-85953) or [AzerothCore](http://www.azerothcore.org/) console via telnet.
 
 
-If you don't know how to set up a basic Telegram Bot, read this first:  [https://core.telegram.org/bots](https://core.telegram.org/bots) and talk with @BotFather
+If you don't know how to set up a basic Telegram Bot, read this first:  [https://core.telegram.org/bots](https://core.telegram.org/bots) and talk with [@BotFather](https://t.me/BotFather)
 
 
 ## Installing
@@ -30,7 +30,7 @@ logs = 1			#Enable/Disable logs (1/0)
 TOKEN = ""		#Token of your telegram bot that you created from @BotFather
 ```
 
-The last parameter it's the Token of your bot that you receive while creating it with @BotFather (ask this bot on telegram).
+The last parameter it's the Token of your bot that you receive while creating it with [@BotFather](https://t.me/BotFather) (ask this bot on telegram).
 
 After configuration you can run your bot, remind to enable telnet in etc/worldserver.conf (RA.* settings) and open your worldserver.
 
@@ -44,9 +44,9 @@ just adding "and chat_id == your_chat_id".
 
 What is chat_id? Anyone on Telegram has a chat_id which any bot use to recognize you and send a message.
 
-How can I find my chat_id? You can obtain your chat id just sending /chatid to @GiveChatId_Bot.
+How can I find my chat_id? You can obtain your chat id just sending /chatid to [@GiveChatId_Bot](https://t.me/GiveChatId_Bot).
 
-(if you want to obtain the chatid of a group you must invite @GiveChatId_Bot to the group and write /chatid, the chat_id of the gorup usually are negative).
+(if you want to obtain the chatid of a group you must invite [@GiveChatId_Bot](https://t.me/GiveChatId_Bot) to the group and write /chatid, the chat_id of the gorup usually are negative).
 
 ## Usages
 
