@@ -5,6 +5,8 @@ This is a Telegram bot that execute commands in [TrinityCore](https://community.
 If you don't know how to set up a basic Telegram Bot, read this first:  [https://core.telegram.org/bots](https://core.telegram.org/bots) and talk with [@BotFather](https://t.me/BotFather)
 
 
+**NOTE**: this repo is not mantained anymore, use [this new Telegram bot!](https://github.com/masterking32/wow-telegram), it's based on PHP and SOAP, made by [@MasterKing32](https://github.com/masterking32).
+
 ## Installing
 
 To run this bot you need the python-telegram-bot library, you can install it by
